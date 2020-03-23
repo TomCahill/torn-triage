@@ -1,0 +1,36 @@
+{
+  "name": "torn-triage",
+  "version": "1.0.0",
+  "description": "A tool to help you identify players that need a revive on a per faction basis",
+  "author": "Tom Cahill",
+  "license": "GPL-3.0",
+  "repository": "TomCahill/torn-triage",
+  "scripts": {
+    "start": "polymer serve",
+    "build": "polymer build",
+    "lint": "polymer lint"
+  },
+  "dependencies": {
+    "@polymer/app-layout": "^3.1.0",
+    "@polymer/app-route": "^3.0.2",
+    "@polymer/iron-ajax": "^3.0.1",
+    "@polymer/iron-flex-layout": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/iron-iconset-svg": "^3.0.1",
+    "@polymer/iron-media-query": "^3.0.1",
+    "@polymer/iron-pages": "^3.0.1",
+    "@polymer/iron-selector": "^3.0.1",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-dialog": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.2",
+    "@polymer/paper-input": "^3.2.0",
+    "@polymer/paper-item": "^3.0.1",
+    "@polymer/paper-progress": "^3.0.1",
+    "@polymer/paper-slider": "^3.0.1",
+    "@polymer/polymer": "^3.3.1",
+    "@webcomponents/webcomponentsjs": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}
