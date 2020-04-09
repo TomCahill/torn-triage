@@ -365,9 +365,6 @@ class TriageListing extends Mixin(PolymerElement).with(
             info.status.details = info.status.details.replace(/<[^>]*>/g, "");
 
             return info;
-          })
-          .sort((a, b) => {
-            return TriageListing.Constants.STATUS_WEIGHTS.indexOf(a.last_action.status) - TriageListing.Constants.STATUS_WEIGHTS.indexOf(b.last_action.status)
           });
 
         // Deal with the data we need to push
@@ -393,6 +390,10 @@ class TriageListing extends Mixin(PolymerElement).with(
             if (idx === -1) return;
             this.splice('_listing', idx, 1);
           });
+
+        this.set('_listing', this.get('_listing').sort((a, b) => {
+          return TriageListing.Constants.STATUS_WEIGHTS.indexOf(a.last_action.status) - TriageListing.Constants.STATUS_WEIGHTS.indexOf(b.last_action.status)
+        }));
       });
   }
 
