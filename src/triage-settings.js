@@ -79,7 +79,7 @@ class TriageSettings extends Mixin(PolymerElement).with(
         <div class="info flex">
           <iron-icon icon="image:healing"></iron-icon>
           <div class="title">Torn Triage</div>
-          <div class="subtitle">v1.0.0</div>
+          <div class="subtitle">v1.0.1</div>
           <div class="body2">This project was built with ❤️ and is Open Source on <a href="https://github.com/TomCahill/torn-triage">Github</a>.<br/>Currently maintaned by <a href="https://www.torn.com/profiles.php?XID=294020#/" target="_BLANK">Cardinal_Fang [294020]</a></div>
         </div>
       </div>
